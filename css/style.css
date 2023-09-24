@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
 }
 p{
-    font-family: "MuseoModerno";
+    font-family: "Mooli";
 }
 body {
     background-color: #081b29;
@@ -65,21 +65,23 @@ header {
 }
 .secbar h1{
     color: white;
-    line-height: 100%;
+    line-height: 50px;
     font-family:"MuseoModerno";
     font-size: 60px;
 }
 .secbar h3{
     color: #00abf0;
     line-height: 100%;
-    font-size: 30px;
+    font-size: 32px;
     font-family: "MuseoModerno";
     margin: 0;
 }
 .secbar p{
     color: white;
-    line-height: 120%;
-    font-family: "Roboto Mono";
+    line-height: 150%;
+    font-family: "Mooli";
+    color: rgb(192,192,192);
+    font-size: 120%;
 }
 .secbar .tlacitka{
     margin-top: 30px;
@@ -91,6 +93,7 @@ header {
     text-decoration: none;
 }
 .secbar .tlacitka #vice{
+    font-family: "MuseoModerno";
     padding: 15px 25px 15px;
     font-size: 20px;
     border-style: solid;
@@ -109,6 +112,7 @@ header {
     color: #00abf0;
 }
 .secbar .tlacitka #kontakt{
+    font-family: "MuseoModerno";
     padding: 15px 25px 15px;
     font-size: 20px;
     border-style: solid;
@@ -128,6 +132,7 @@ header {
 }
 .link-btn{
     font-weight: bold;
+    color: rgb(192,192,192);
 }
 .link-btn:hover{
     color:#00abf0;
@@ -148,9 +153,11 @@ header {
     line-height: 1px;
 }
 .artbar p{
-    line-height: 20px;
-    font-family: "Roboto Mono";
+    line-height: 38px;
+    font-size: 160%;
+    font-family: "Mooli";
     margin-right: 10%;
+    color: rgb(192,192,192);
 }
 
 /*Certifikáty*/
@@ -187,20 +194,15 @@ header {
 }
 
 /*Footer*/
-.posledni{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    padding-right: 10%;
-}
-.posledni .ikony{
-    display: flex;
-    gap: 20px;
-}
-.posledni p{
+.posledniVse{
     color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0;
+    padding-top: 0;
+}
+.posledniVse p{
+    font-family: "MuseoModerno";
 }
 
 
@@ -268,21 +270,23 @@ header {
 }
 .secbar h1{
     color: white;
-    line-height: 100%;
+    line-height: 25px;
     font-family:"MuseoModerno";
     font-size: 60px;
 }
 .secbar h3{
     color: #00abf0;
     line-height: 100%;
-    font-size: 30px;
+    font-size: 32px;
     font-family: "MuseoModerno";
     margin: 0;
 }
 .secbar p{
     color: white;
-    line-height: 120%;
-    font-family: "Roboto Mono";
+    line-height: 150%;
+    font-family: "Mooli";
+    color: rgb(192,192,192);
+    font-size: 120%;
 }
 .secbar .tlacitka{
     margin-top: 30px;
@@ -295,6 +299,7 @@ header {
     text-decoration: none;
 }
 .secbar .tlacitka #vice{
+    font-family: "MuseoModerno";
     padding: 15px 25px 15px;
     font-size: 20px;
     border-style: solid;
@@ -313,6 +318,7 @@ header {
     color: #00abf0;
 }
 .secbar .tlacitka #kontakt{
+    font-family: "MuseoModerno";
     padding: 15px 25px 15px;
     font-size: 20px;
     border-style: solid;
@@ -332,6 +338,7 @@ header {
 }
 .link-btn{
     font-weight: bold;
+    color: rgb(192,192,192);
 }
 .link-btn:hover{
     color:#00abf0;
@@ -352,9 +359,11 @@ header {
     line-height: 1px;
 }
 .artbar p{
-    line-height: 20px;
-    font-family: "Roboto Mono";
+    line-height: 38px;
+    font-size: 160%;
+    font-family: "Mooli";
     margin-right: 10%;
+    color: rgb(192,192,192);
 }
 
 /*Certifikáty*/
@@ -391,20 +400,15 @@ header {
 }
 
 /*Footer*/
-.posledni{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    padding-right: 10%;
-}
-.posledni .ikony{
-    display: flex;
-    gap: 20px;
-}
-.posledni p{
+.posledniVse{
     color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0;
+    padding-top: 0;
+}
+.posledniVse p{
+    font-family: "MuseoModerno";
 }
   }
 
@@ -443,22 +447,21 @@ a{
     background-color: white;
     margin: 6px 0;
 }
-/*
-header {
-    position: sticky;
-    top: 0;
-}
-
 .navbar{
+    /*
     display: flex;
     align-items: center;
-    padding-top: 0;
     justify-content: space-between;
     font-family: "MuseoModerno";
     font-weight: bold;
     background-color: #081b29;
+    margin-top: 0;
+    */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
 }
-*/
+
 .navbar .links{
     font-family: "MuseoModerno";
     position: absolute;
@@ -535,21 +538,23 @@ header {
 }
 .secbar h1{
     color: white;
-    line-height: 100%;
+    line-height: 60px;
     font-family:"MuseoModerno";
     font-size: 60px;
 }
 .secbar h3{
     color: #00abf0;
     line-height: 100%;
-    font-size: 30px;
+    font-size: 32px;
     font-family: "MuseoModerno";
     margin: 0;
 }
 .secbar p{
     color: white;
-    line-height: 120%;
-    font-family: "Roboto Mono";
+    line-height: 150%;
+    font-family: "Mooli";
+    color: rgb(192,192,192);
+    font-size: 120%;
 }
 .secbar .tlacitka{
     margin-top: 30px;
@@ -562,6 +567,7 @@ header {
     text-decoration: none;
 }
 .secbar .tlacitka #vice{
+    font-family: "MuseoModerno";
     padding: 15px 25px 15px;
     font-size: 20px;
     border-style: solid;
@@ -580,6 +586,7 @@ header {
     color: #00abf0;
 }
 .secbar .tlacitka #kontakt{
+    font-family: "MuseoModerno";
     padding: 15px 25px 15px;
     font-size: 20px;
     border-style: solid;
@@ -599,6 +606,7 @@ header {
 }
 .link-btn{
     font-weight: bold;
+    color: rgb(192,192,192);
 }
 .link-btn:hover{
     color:#00abf0;
@@ -619,9 +627,11 @@ header {
     line-height: 1px;
 }
 .artbar p{
-    line-height: 20px;
-    font-family: "Roboto Mono";
+    line-height: 38px;
+    font-size: 160%;
+    font-family: "Mooli";
     margin-right: 10%;
+    color: rgb(192,192,192);
 }
 
 /*Certifikáty*/
@@ -658,20 +668,14 @@ header {
 }
 
 /*Footer*/
-.posledni{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    padding-right: 10%;
-}
-.posledni .ikony{
-    display: flex;
-    gap: 20px;
-}
-.posledni p{
+.posledniVse{
     color: white;
-    font-size: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0;
+    padding-top: 0;
+}
+.posledniVse p{
+    font-family: "MuseoModerno";
 }
   }
