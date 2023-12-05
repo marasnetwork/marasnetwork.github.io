@@ -70,6 +70,9 @@ header {
 .obrazek{
     width: 40%;
 }
+.obrazek img{
+    border-radius: 10px;
+}
 .secbar h1{
     color: white;
     line-height: 50px;
