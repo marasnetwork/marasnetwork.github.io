@@ -40,7 +40,7 @@ ol li{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: url('/images/apple-colorfull-purple-blue.jpg');
+    background: url('/jak-se-ucit/images/apple-colorfull-purple-blue.jpg');
     border-radius: 20px;
   }
 
