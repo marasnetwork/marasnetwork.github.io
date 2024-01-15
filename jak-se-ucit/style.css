@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/apple-purple.jpg');
+    backdrop-filter: blur(12px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0px -800px; */
+    color: white;
+
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+a{
+    color: black;
+}
+
+/* Sidebar - start */
+
+.sidebar{
+    background-color: white;
+    font-family: "Mooli";
+    position: absolute;
+    margin-left: 25px;
+    width: 64px;
+    height: 100vh;
+    overflow: hidden;
+    transition: .5s;
+    border: 3px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.zoom{
+    zoom: .75;
+    transition: .5s;
+}
+/* .zoom:hover{
+    zoom: .9;
+} */
+
+.sidebar:hover{
+    width: 300px;
+    border-right-color: white;
+}
+
+.sidebar:hover .obsah{
+    top: 50%;
+    left: 85%;
+    transform: translate(-85%, -50%);
+    position: absolute;
+}
+.sidebar ul{
+    position: relative;
+    height: 100vh;
+}
+.sidebar ul li{
+    list-style: none;
+    transition: .1s;
+}
+.sidebar ul li:hover{
+    font-size: large;   
+}
+.sidebar ul li a{
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.sidebar ul li a .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    min-height: 60px;
+    font-size: 35px;
+}
+.sidebar ul li a .text{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05s;
+    text-transform: uppercase;
+}
+
+.top{
+    top: 0%;
+    transform: translate(0, 0%);
+    position: absolute;
+}
+.sidebar li.logo .icon{
+    font-size: 45px;
+}
+.sidebar li.logo .text{
+    font-size: 25px;
+    font-weight: 400px;
+}
+.bottom{
+    top: 100%;
+    transform: translate(0, -100%);
+    position: absolute;
+}
+.bottom .img-box{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bottom .img-box img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.center{
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+/* Sidebar - end */
+
+/* Scroll bar - start */
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+/* Scroll bar - end */
+
+/* Obsah - start */
+
+.obsah{
+    margin: 0 auto;
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    position: absolute;
+    height: 75vh;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Obsah - konec */
