@@ -50,7 +50,7 @@ ol li{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: url('/images/background-purple.jpg');
+    background: url('/jak-se-ucit/images/background-purple.jpg');
     border-radius: 20px;
   }
 
@@ -60,7 +60,7 @@ ol li{
     --progress: 0;
     height: 6px;
     width: var(--progress);
-    background: url('/images/background-purple.jpg');
+    background: url('/jak-se-ucit/images/background-purple.jpg');
     position: fixed;
     top: 0;
     left: 0;
